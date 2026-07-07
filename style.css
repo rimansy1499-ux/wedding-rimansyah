@@ -1,3 +1,70 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f4ec;
+color:#4a3b2b;
+}
+
+#cover{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:30px;
+background:linear-gradient(180deg,#fdf8f2,#efe2cf);
+}
+
+#cover h1{
+font-family:'Cormorant Garamond',serif;
+font-size:48px;
+margin:20px 0;
+color:#b68a35;
+}
+
+#cover h3{
+font-size:24px;
+margin-bottom:20px;
+}
+
+.guest{
+margin:25px 0;
+}
+
+#openInvitation{
+padding:14px 30px;
+border:none;
+border-radius:30px;
+background:#b68a35;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+#content{
+padding:30px;
+}
+
+.hero{
+max-width:700px;
+margin:auto;
+text-align:center;
+}
+
+.hero h2{
+margin-bottom:20px;
+}
+
+.hero p{
+line-height:1.8;
+}
+
 .couple{
 display:flex;
 flex-direction:column;
